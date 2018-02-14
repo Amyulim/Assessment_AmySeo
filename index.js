@@ -23,6 +23,12 @@ document.getElementById("bg3").addEventListener("click", function () {
 
 });
 
+document.getElementById("bg4").addEventListener("click", function () {
+    document.getElementById("ch1").style.backgroundImage="url(img/i10.jpg)";
+    document.getElementById("ch2").style.backgroundImage="url(img/i11.jpg)";
+    document.getElementById("ch3").style.backgroundImage="url(img/i12.jpg)";
+});
+
 document.getElementById("ch1").addEventListener("mouseenter", function () {
     zoomBG.backgroundImage = document.getElementById("ch1").style.backgroundImage;
 });
@@ -34,24 +40,6 @@ document.getElementById("ch3").addEventListener("mouseenter", function () {
 })
 
 
-document.getElementById("bg4").addEventListener("click", function () {
-    document.getElementById("ch1").style.backgroundImage="url(img/i10.jpg)";
-    document.getElementById("ch2").style.backgroundImage="url(img/i11.jpg)";
-    document.getElementById("ch3").style.backgroundImage="url(img/i12.jpg)";
-    
-    document.getElementById("ch1").addEventListener("mouseenter", function () {
-   zoomBG.backgroundImage = "url(img/i10.jpg)"
-   
-});
-    document.getElementById("ch2").addEventListener("mouseenter", function () {
-   zoomBG.backgroundImage = "url(img/i11.jpg)"
-   
-});
-    document.getElementById("ch3").addEventListener("mouseenter", function () {
-   zoomBG.backgroundImage = "url(img/i12.jpg)"
-   
-});
-});
 
 
 document.getElementById("zoom").addEventListener("click", function () {
